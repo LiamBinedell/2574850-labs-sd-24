@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: 0px;
+            }
+            header, footer {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 500px;
+                background-color: #333333;
+                margin: 0px;
+                width: 100%;
+            }
+            .headerText {
+                color: white;
+            }
+            .otherHeaderText {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+            }
+            .mainBody {
+                text-align: center;
+            }
+            .headings {
+                font-size: 20px;
+            }
+            .images {
+                width: 600px;
+                height: 400px;
+            }
+            .imgContainer {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            .cell {
+                border-style: solid;
+                border-width: 1px;
+                border-color: #333333;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <section class="welcomeMessage">
+                <p class="headerText">Welcome to Software Design Website</p>
+            </section>
+
+            <section class="otherHeaderText">
+                <p class="headerText">About us</p>
+                <p class="headerText">Services</p>
+                <p class="headerText">Contact Us</p>
+            </section>
+        </header>
+
+        <article class="mainBody">
+            <h1 class="headings">About us</h1>
+            <p>We are a company dedicated to providing excellence to our customers.</p>
+
+            <img src="aboutUs.jpg" class="images">
+
+            <h1 class="headings">Our services</h1>
+
+            <section class="imgContainer">
+                <section class="cell">
+                    <h1 class="headings">Web Development</h1>
+                    <p>We specialize in creating responsive and user-friendly websites.</p>
+                    <img src="webDev.jpg" class="images">
+                </section>
+
+                <section class="cell">
+                    <h1 class="headings">Graphic Design</h1>
+                    <p>Our talented designers can bring your ideas to life with stunning visuals.</p>
+                    <img src="graphDesign.jpg" class="images">
+                </section>
+            </section>
+        </article>
+
+        <footer style="margin-top: 60px;">
+            <p class="headerText">© 2024 The Lucky Company. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
